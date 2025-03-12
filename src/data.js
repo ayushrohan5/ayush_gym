@@ -2,7 +2,7 @@ const reviews = [
     {
       id: 1,
       name: "Chris Evans",
-      job: "Personal Trainer",
+      job: "PT",
       image: "https://s.yimg.com/zb/imgv1/4e18348b-b120-3fb2-95fe-0b84afc29722/t_500x300",
       text: "As a Personal Trainer, I work one-on-one with clients to develop personalized fitness programs tailored to their individual goals. I provide guidance on exercise techniques, nutrition, and lifestyle changes to help clients achieve their desired results.",
     },

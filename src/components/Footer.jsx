@@ -7,22 +7,26 @@ import emailjs from '@emailjs/browser';
 const Footer = () => {
 
     const form = useRef();
-    console.log(process.env.SERVICE_KEY);
     const sendEmail = (e) => {
         e.preventDefault();
     
-        emailjs
-          .sendForm(process.env.SERVICE_KEY, process.env.TEMPLATE_KEY, form.current, {
-            publicKey: process.env.PUBLIC_KEY,
-          })
-          .then(
-            () => {
-              console.log('SUCCESS!');
-            },
-            (error) => {
-              console.log('FAILED...', error.text);
-            },
-          );
+        emailjs.sendForm(
+          process.env.REACT_APP_SERVICE_KEY,
+          process.env.REACT_APP_TEMPLATE_KEY,
+          form.current,
+          {
+            publicKey: process.env.REACT_APP_PUBLIC_KEY, 
+          }
+        )
+        .then(
+          () => {
+            console.log('SUCCESS!');
+          },
+          (error) => {
+            console.log('FAILED...', error.text);
+          }
+        );
+        
       };
 
   return (
@@ -33,7 +37,7 @@ const Footer = () => {
         <div className="subscribe-container">
         <form ref={form} onSubmit={sendEmail}>
           <input type="email" placeholder="Enter your Email*" />
-          <button type="submit">Subscribe</button>
+          <input type="submit" value="Subscribe" />
           </form>
         </div>
         <p>Stay informed with our latest news and exclusive content.</p>
