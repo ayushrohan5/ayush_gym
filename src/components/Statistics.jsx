@@ -38,7 +38,7 @@ const Statistics = () => {
           {[
             { icon: <MdOutlineCardMembership size={40} />, value: count.members, label: "Members" },
             { icon: <MdClass size={40} />, value: count.classes, label: "Classes" },
-            { icon: <MdOutlineSportsGymnastics size={40} />, value: count.trainers, label: "Personal Trainers" },
+            { icon: <MdOutlineSportsGymnastics size={40} />, value: count.trainers, label: "PT" },
             { icon: <CgGym size={40} />, value: count.gyms, label: "Gyms" },
           ].map((stat, index) => (
             <div key={index} className="flex items-center space-x-4 w-full md:w-1/4 p-6 text-center">
