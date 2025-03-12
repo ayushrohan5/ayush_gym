@@ -5,6 +5,7 @@ import Programs from './components/programs';
 import reviews from "./data";
 import Testimonial from "./components/Testimonial"
 import Statistics from './components/Statistics';
+import Footer from './components/Footer';
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
           <Programs />
          <Testimonial reviews={reviews} />
          <Statistics />
+         <Footer />
          
          
     </>
