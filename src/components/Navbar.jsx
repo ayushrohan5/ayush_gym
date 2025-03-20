@@ -22,11 +22,11 @@ const Navbar = () => {
         <div className="hidden md:flex space-x-6">
           <Link to="/" className="text-white hover:text-gray-400">Home</Link>
           <Link to="/about" className="text-white hover:text-gray-400">About us</Link>
-          <a href="#services" className="text-white hover:text-gray-400">Services</a>
+          {/* <a href="#services" className="text-white hover:text-gray-400">Services</a>
           <a href="#footer" className="text-white hover:text-gray-400">
               Contact Us
             </a>
-            <a href="#testimonials" className="text-white hover:text-gray-400">Our Testimonials</a>
+            <a href="#testimonials" className="text-white hover:text-gray-400">Our Testimonials</a> */}
         </div>
 
         <div className="hidden md:block">
@@ -45,7 +45,7 @@ const Navbar = () => {
               <li>
                 <Link to="/about">About us</Link>
               </li>
-              <li>
+              {/* <li>
                 <a href="#services">Services</a>
               </li>
               <li>
@@ -53,7 +53,7 @@ const Navbar = () => {
               </li>
               <li>
                 <a href="#testimonials">Our Testimonials</a>
-              </li>
+              </li> */}
               <li>
                 <StyledButtonWrapper>
                   <Button />
