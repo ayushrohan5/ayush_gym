@@ -37,13 +37,13 @@ const Footer = () => {
         <div className="subscribe-container">
         <form ref={form} onSubmit={sendEmail}>
           <input type="email" placeholder="Enter your Email*" />
-          <input type="submit" value="Subscribe" />
+          <button>Subscribe</button>
           </form>
         </div>
-        <p>Stay informed with our latest news and exclusive content.</p>
+        <p className="mr-[27px] mt-[9px]">Stay informed with our latest news and exclusive content.</p>
       </div>
 
-      <div className="midFooter">
+      <div className="midFooter" id="footer">
         <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
           <img src="/logo.PNG" alt="NFC GYM" width="200px" height="200px" style={{ marginBottom: '15px' }} />
           <p>Empower Your Fitness Journey.</p>

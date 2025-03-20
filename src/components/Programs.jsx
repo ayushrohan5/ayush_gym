@@ -7,9 +7,9 @@ import { CgGym } from "react-icons/cg";
 const Programs = () => {
   return (
     <>
-    <div class="banner3">
+    <div class="banner3" id="services">
   <div class="adtext2">
-    <h1 className='text-3xl'>OUR <span class="advantages">SERVICES</span></h1>
+    <h1 className='text-3xl mb-[15px]'>OUR <span class="advantages">SERVICES</span></h1>
     <p>Unlock Your Potential with NFC Gym – State-of-the-Art Equipment, Personalized Training, Group Classes, and Recovery Solutions for All Fitness Levels.</p>
   </div>
   <div class="starcard">

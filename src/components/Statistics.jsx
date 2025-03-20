@@ -33,8 +33,10 @@ const Statistics = () => {
 
   return (
     <section className="py-20 bg-black text-white">
-      <div className="container mx-auto px-6 md:px-12">
-        <div className="flex flex-col md:flex-row justify-center items-center gap-8">
+      <h1 className="text-4xl font-bold text-white justify-center align-center flex">Statistics</h1>
+      <div className="container mx-auto px-6 md:px-12 justify-center align-center flex">
+        
+        <div className="flex flex-col md:flex-row justify-center items-center gap-8 mt-[19px]">
           {[
             { icon: <MdOutlineCardMembership size={40} />, value: count.members, label: "Members" },
             { icon: <MdClass size={40} />, value: count.classes, label: "Classes" },
