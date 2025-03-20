@@ -14,7 +14,7 @@ function Testimonial({ reviews }) {
   }
 
   return (
-    <div className="flex flex-col justify-center items-center w-[100vw] bg-black" id="testimonials">
+    <div className="flex flex-col justify-center items-center w-[99vw] bg-black" id="testimonials">
       <div className="text-center">
         <h1 className="text-4xl font-bold text-white">Our <span className="advantages">Testimonials</span></h1>
         <div className="bg-gray-500 h-[4px] w-1/5 mt-1 mx-auto"></div>
