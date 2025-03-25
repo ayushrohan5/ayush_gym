@@ -22,6 +22,9 @@ const Navbar = () => {
         <div className="hidden md:flex space-x-6">
           <Link to="/" className="text-white hover:text-gray-400">Home</Link>
           <Link to="/about" className="text-white hover:text-gray-400">About us</Link>
+          <Link to="/contact" className="text-white hover:text-gray-400">
+              Contact Us
+            </Link>
           {/* <a href="#services" className="text-white hover:text-gray-400">Services</a>
           <a href="#footer" className="text-white hover:text-gray-400">
               Contact Us
@@ -44,6 +47,9 @@ const Navbar = () => {
               </li>
               <li>
                 <Link to="/about">About us</Link>
+              </li>
+              <li>
+                <Link to="/contact">Contact us</Link>
               </li>
               {/* <li>
                 <a href="#services">Services</a>
