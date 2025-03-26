@@ -14,7 +14,7 @@ function App() {
   <div className="hero-content flex-col lg:flex-row mt-[50px]">
     <img
       src="https://tiki.vn/blog/wp-content/uploads/2023/08/thumbnail-8.jpg"
-      className="rounded-lg shadow-2xl" />
+      className="md:max-w-sm rounded-lg shadow-2xl" />
     <div>
       <h1 className="text-5xl font-bold">About <span className="advantages"> Us</span></h1>
       <p className="py-6">
