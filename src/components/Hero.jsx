@@ -8,7 +8,7 @@ const Hero = () => {
       <div className="hero-content flex-col lg:flex-row-reverse">
         {/* 3D Image Effect */}
         <motion.img
-          src="/src/assets/image1.png"
+          src="https://i.pinimg.com/originals/f2/31/17/f231175cc4af23ccb0e07f3db7900397.jpg"
           alt="Gym Workout"
           className="w-[81vh] h-[54vh] sm:w-[125vh] sm:h-[90vh] rounded-lg shadow-2xl z-10"
           initial={{ scale: 0.8, rotateY: 20, opacity: 0 }}
