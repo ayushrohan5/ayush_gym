@@ -10,7 +10,7 @@ const Pricing = () => {
     <section className='bg-black text-white py-[79px] text-center'>
         <h1 className='text-4xl font-bold'>Pricing</h1>
       </section>
-    <section className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 bg-black md:px-[146px] px-[35px]'>
+    <section className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 bg-black md:px-[146px] px-[32px]'>
     <div className="card w-96 bg-base-100 shadow-sm">
   <div className="card-body">
   <span className="badge badge-xs badge-warning">Most Popular</span>
