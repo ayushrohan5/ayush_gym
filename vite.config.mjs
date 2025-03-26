@@ -6,6 +6,9 @@ export default defineConfig(() => {
   return {
     build: {
       outDir: 'build',
+      rollupOptions: {
+        external: ['react-icons/io5']
+      }
     },
     plugins: [
       react(),
