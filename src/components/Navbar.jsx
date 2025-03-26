@@ -25,6 +25,7 @@ const Navbar = () => {
           <Link to="/contact" className="text-white hover:text-gray-400">
               Contact Us
             </Link>
+            <Link to="/pricing" className="text-white hover:text-gray-400">Pricing</Link>
           {/* <a href="#services" className="text-white hover:text-gray-400">Services</a>
           <a href="#footer" className="text-white hover:text-gray-400">
               Contact Us
@@ -50,6 +51,9 @@ const Navbar = () => {
               </li>
               <li>
                 <Link to="/contact">Contact us</Link>
+              </li>
+              <li>
+                <Link to="/pricing">Pricing</Link>
               </li>
               {/* <li>
                 <a href="#services">Services</a>

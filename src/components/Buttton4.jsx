@@ -1,11 +1,11 @@
 import React from 'react';
-import { Link } from 'react-router';
 import styled from 'styled-components';
 
-const Button = () => {
+const Button4 = () => {
   return (
     <StyledWrapper>
-    <Link to="#"><button className="Btn z-10"></button></Link>
+      <button className="Btn z-10">
+      </button>
     </StyledWrapper>
   );
 }
@@ -27,16 +27,22 @@ const StyledWrapper = styled.div`
     cursor: pointer;
     transition-duration: 1s;
     overflow: hidden;
+    padding-left: 20px;  /* px-5 */
+    padding-right: 20px; /* px-5 */
+    padding-top: 12px;   /* py-3 */
+    padding-bottom: 12px;/* py-3 */
+    margin-top: 40px;    /* mt-10 */
+
   }
 
   .Btn::before {
     position: absolute;
-    content: "Book a session";
+    content: "SUBSCRIBE";
     color:rgb(255, 255, 255);
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 97%;
+    width: 98%;
     height: 90%;
     border-radius: 8px;
     transition-duration: 1s;
@@ -58,4 +64,4 @@ const StyledWrapper = styled.div`
     transform: scale(0.95);
   }`;
 
-export default Button;
+export default Button4;

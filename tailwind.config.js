@@ -1,3 +1,5 @@
+const { heroui } = require("@heroui/react");
+
 module.exports = {
     theme: {
       screens: {
@@ -8,4 +10,16 @@ module.exports = {
         '2xl': '1536px',
       },
     },
+    
+      content: [
+        // ...
+        "./node_modules/@heroui/theme/dist/**/*.{js,ts,jsx,tsx}"
+      ],
+      theme: {
+        extend: {},
+      },
+      darkMode: "class",
+      plugins: [heroui()]
+    
+    
   };
